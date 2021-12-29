@@ -26,7 +26,9 @@ module.exports = {
       }
     }
   },
-  entry: './src/main.js',
+  // entry: './src/main.js',
+  // entry: './src/mobx/index.js', // mobx demo 入口
+  entry: './src/redux/index.js', // redux demo 入口
   output: {
     publicPath: '/',
     path: resolve('dist'),
